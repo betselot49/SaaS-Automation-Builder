@@ -14,6 +14,16 @@ pnpm dev
 bun dev
 ```
 
+```bash
+# Prisma studio
+npx prisma studio
+# ngrok for local development
+ngrok config add-authtoken 2T19PHaQrXEKpsAqiPn65KUiz6F_7HXd8dVpM8NDwhaQRBZEM
+
+ngrok http https://localhost:3000
+
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
